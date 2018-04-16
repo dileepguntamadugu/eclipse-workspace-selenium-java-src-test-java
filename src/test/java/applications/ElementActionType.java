@@ -10,15 +10,12 @@ public class ElementActionType {
 	private By by;
 	private String elementLocator;
 	
-	public void test() {
-		System.out.println("Test Method");
-	}
 	
-	/*public ElementActionType(WebElement element, By by, String elementLocator) {
+	public ElementActionType(WebElement element, By by, String elementLocator) {
 		this.by=by;
 		this.element=element;
 		this.elementLocator = elementLocator;
-	}*/
+	}
 	
 	public WebElement getElement() {
 		return element;
